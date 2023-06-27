@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://michalgawlaskodillaapp.michal2220.repl.co/v1/tasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello';
+  const trelloApiRoot = 'https://michalgawlaskodillaapp.michal2220.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
